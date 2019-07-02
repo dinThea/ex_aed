@@ -1,0 +1,10 @@
+typedef int Cont;
+typedef struct noh Noh;
+typedef Noh *Arvore;
+Arvore criaArvore(Cont conteudo);
+Noh* append(Noh *no, Cont conteudo, int direcao);
+void popular(Noh *no, int altura, int val);
+void imprimeERD(Noh *no);
+void imprimeIterativoPilha (Noh *no, int op);
+void appendBalanceado(Noh *no, Cont conteudo);
+int altura(Noh *no);
